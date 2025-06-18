@@ -1,1 +1,1 @@
-# gaming-typewriter
+# GamingTypewriter
