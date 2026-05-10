@@ -15,13 +15,13 @@ import soundfile as sf
 # ============================================================
 
 # ArduinoのCOMポート
-SERIAL_PORT = "COM5"
+SERIAL_PORT = "COM8"
 
 # Arduino側の Serial.begin() と合わせる
 SERIAL_BAUDRATE = 1000000
 
 # マイク設定
-DEVICE_ID = 12
+DEVICE_ID = 14
 SAMPLERATE = 96000
 
 # ZOOM AMS-44 ASIO Driver の安定性を考慮し、4chで入力して1ch目だけ保存する
@@ -37,7 +37,7 @@ DTYPE = "int32"
 
 # トリガ前後の保存時間
 PRE_TRIGGER_SEC = 0.015
-POST_TRIGGER_SEC = 0.060
+POST_TRIGGER_SEC = 0.600
 
 # リングバッファ長
 # 前100msだけなら短くてもよいが、余裕を見て5秒分保持する

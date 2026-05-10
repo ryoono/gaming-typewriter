@@ -37,7 +37,7 @@ MODEL_PATH = Path("typewriter_key_classifier.joblib")
 TARGET_SR = 96000
 
 # トリガ前後100msで保存している前提なら0.2秒
-CLIP_SEC = 0.200
+CLIP_SEC = 0.075
 
 # 音声波形を最大振幅位置で中央寄せする
 # トリガ位置に多少ズレがある場合に有効
