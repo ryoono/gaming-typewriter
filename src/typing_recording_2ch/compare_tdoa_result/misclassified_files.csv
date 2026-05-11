@@ -1,0 +1,8 @@
+﻿mode,true,pred,file
+audio_only,Y,T,recorded_triggers\Y\trigger_0031_20260512_003223_487397.wav
+audio_only,L,P,recorded_triggers\L\trigger_0026_20260512_000751_703474.wav
+audio_only,T,W,recorded_triggers\T\trigger_0001_20260512_002611_152861.wav
+with_tdoa,Y,T,recorded_triggers\Y\trigger_0031_20260512_003223_487397.wav
+with_tdoa,Y,R,recorded_triggers\Y\trigger_0014_20260512_003049_425030.wav
+with_tdoa,L,P,recorded_triggers\L\trigger_0026_20260512_000751_703474.wav
+with_tdoa,T,W,recorded_triggers\T\trigger_0001_20260512_002611_152861.wav
