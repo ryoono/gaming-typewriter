@@ -43,7 +43,7 @@ DATASET_DIR = Path("recorded_triggers")
 KEY_LABELS = ["E", "H", "I", "L", "O", "P", "R", "SP", "T", "W", "Y"]
 
 # 学習済みモデル保存先
-MODEL_PATH = Path("typewriter_key_classifier.joblib")
+MODEL_PATH = Path("typewriter_key_classifier_audio_only.joblib")
 
 # 音声読み込み時のサンプリング周波数
 # 元データが96kHzなら 96000 のままでOK
@@ -69,7 +69,7 @@ RANDOM_STATE = 42
 # ============================================================
 
 # TDoA特徴量を使うか
-USE_TDOA_FEATURES = True
+USE_TDOA_FEATURES = False
 
 # マイク間距離[m]
 MIC_DISTANCE_M = 0.21
